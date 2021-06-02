@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5CC468265340570006FCAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5CC467265340570006FCAA /* AppDelegate.swift */; };
+		5D5CC46A265340570006FCAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5CC469265340570006FCAA /* SceneDelegate.swift */; };
+		5D5CC46C265340570006FCAA /* CarSwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5CC46B265340570006FCAA /* CarSwapViewController.swift */; };
+		5D5CC46F265340570006FCAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CC46D265340570006FCAA /* Main.storyboard */; };
+		5D5CC4712653405A0006FCAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CC4702653405A0006FCAA /* Assets.xcassets */; };
+		5D5CC4742653405A0006FCAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CC4722653405A0006FCAA /* LaunchScreen.storyboard */; };
+		5D5CC47F2653405A0006FCAA /* CoolCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5CC47E2653405A0006FCAA /* CoolCarTests.swift */; };
+		5D5CC48A2653405A0006FCAA /* CoolCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5CC4892653405A0006FCAA /* CoolCarUITests.swift */; };
+		5DA563C726549FEB000AE7B7 /* CarInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA563C626549FEB000AE7B7 /* CarInformation.swift */; };
+		5DA563C92655EF2B000AE7B7 /* CarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA563C82655EF2B000AE7B7 /* CarInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D5CC47B2653405A0006FCAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5CC45C265340560006FCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D5CC463265340560006FCAA;
+			remoteInfo = CoolCar;
+		};
+		5D5CC4862653405A0006FCAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5CC45C265340560006FCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D5CC463265340560006FCAA;
+			remoteInfo = CoolCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D5CC464265340570006FCAA /* CoolCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5CC467265340570006FCAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D5CC469265340570006FCAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D5CC46B265340570006FCAA /* CarSwapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSwapViewController.swift; sourceTree = "<group>"; };
+		5D5CC46E265340570006FCAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5CC4702653405A0006FCAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5CC4732653405A0006FCAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5CC4752653405A0006FCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5CC47A2653405A0006FCAA /* CoolCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5CC47E2653405A0006FCAA /* CoolCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolCarTests.swift; sourceTree = "<group>"; };
+		5D5CC4802653405A0006FCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5CC4852653405A0006FCAA /* CoolCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5CC4892653405A0006FCAA /* CoolCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolCarUITests.swift; sourceTree = "<group>"; };
+		5D5CC48B2653405A0006FCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA563C626549FEB000AE7B7 /* CarInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInformation.swift; sourceTree = "<group>"; };
+		5DA563C82655EF2B000AE7B7 /* CarInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5CC461265340560006FCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5CC4772653405A0006FCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5CC4822653405A0006FCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5CC45B265340560006FCAA = {
+			isa = PBXGroup;
+			children = (
+				5D5CC466265340570006FCAA /* CoolCar */,
+				5D5CC47D2653405A0006FCAA /* CoolCarTests */,
+				5D5CC4882653405A0006FCAA /* CoolCarUITests */,
+				5D5CC465265340570006FCAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5CC465265340570006FCAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CC464265340570006FCAA /* CoolCar.app */,
+				5D5CC47A2653405A0006FCAA /* CoolCarTests.xctest */,
+				5D5CC4852653405A0006FCAA /* CoolCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5CC466265340570006FCAA /* CoolCar */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CC46D265340570006FCAA /* Main.storyboard */,
+				5D5CC499265340CA0006FCAA /* Controller */,
+				5D5CC498265340B70006FCAA /* Model */,
+				5D5CC497265340AE0006FCAA /* View */,
+				5D5CC467265340570006FCAA /* AppDelegate.swift */,
+				5D5CC469265340570006FCAA /* SceneDelegate.swift */,
+				5D5CC4702653405A0006FCAA /* Assets.xcassets */,
+				5D5CC4722653405A0006FCAA /* LaunchScreen.storyboard */,
+				5D5CC4752653405A0006FCAA /* Info.plist */,
+			);
+			path = CoolCar;
+			sourceTree = "<group>";
+		};
+		5D5CC47D2653405A0006FCAA /* CoolCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CC47E2653405A0006FCAA /* CoolCarTests.swift */,
+				5D5CC4802653405A0006FCAA /* Info.plist */,
+			);
+			path = CoolCarTests;
+			sourceTree = "<group>";
+		};
+		5D5CC4882653405A0006FCAA /* CoolCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CC4892653405A0006FCAA /* CoolCarUITests.swift */,
+				5D5CC48B2653405A0006FCAA /* Info.plist */,
+			);
+			path = CoolCarUITests;
+			sourceTree = "<group>";
+		};
+		5D5CC497265340AE0006FCAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D5CC498265340B70006FCAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DA563C626549FEB000AE7B7 /* CarInformation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D5CC499265340CA0006FCAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CC46B265340570006FCAA /* CarSwapViewController.swift */,
+				5DA563C82655EF2B000AE7B7 /* CarInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5CC463265340560006FCAA /* CoolCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5CC48E2653405A0006FCAA /* Build configuration list for PBXNativeTarget "CoolCar" */;
+			buildPhases = (
+				5D5CC460265340560006FCAA /* Sources */,
+				5D5CC461265340560006FCAA /* Frameworks */,
+				5D5CC462265340560006FCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolCar;
+			productName = CoolCar;
+			productReference = 5D5CC464265340570006FCAA /* CoolCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5CC4792653405A0006FCAA /* CoolCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5CC4912653405A0006FCAA /* Build configuration list for PBXNativeTarget "CoolCarTests" */;
+			buildPhases = (
+				5D5CC4762653405A0006FCAA /* Sources */,
+				5D5CC4772653405A0006FCAA /* Frameworks */,
+				5D5CC4782653405A0006FCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5CC47C2653405A0006FCAA /* PBXTargetDependency */,
+			);
+			name = CoolCarTests;
+			productName = CoolCarTests;
+			productReference = 5D5CC47A2653405A0006FCAA /* CoolCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D5CC4842653405A0006FCAA /* CoolCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5CC4942653405A0006FCAA /* Build configuration list for PBXNativeTarget "CoolCarUITests" */;
+			buildPhases = (
+				5D5CC4812653405A0006FCAA /* Sources */,
+				5D5CC4822653405A0006FCAA /* Frameworks */,
+				5D5CC4832653405A0006FCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5CC4872653405A0006FCAA /* PBXTargetDependency */,
+			);
+			name = CoolCarUITests;
+			productName = CoolCarUITests;
+			productReference = 5D5CC4852653405A0006FCAA /* CoolCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5CC45C265340560006FCAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5D5CC463265340560006FCAA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5D5CC4792653405A0006FCAA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5D5CC463265340560006FCAA;
+					};
+					5D5CC4842653405A0006FCAA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5D5CC463265340560006FCAA;
+					};
+				};
+			};
+			buildConfigurationList = 5D5CC45F265340560006FCAA /* Build configuration list for PBXProject "CoolCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5CC45B265340560006FCAA;
+			productRefGroup = 5D5CC465265340570006FCAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5CC463265340560006FCAA /* CoolCar */,
+				5D5CC4792653405A0006FCAA /* CoolCarTests */,
+				5D5CC4842653405A0006FCAA /* CoolCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5CC462265340560006FCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5CC4742653405A0006FCAA /* LaunchScreen.storyboard in Resources */,
+				5D5CC4712653405A0006FCAA /* Assets.xcassets in Resources */,
+				5D5CC46F265340570006FCAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5CC4782653405A0006FCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5CC4832653405A0006FCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5CC460265340560006FCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5CC46C265340570006FCAA /* CarSwapViewController.swift in Sources */,
+				5D5CC468265340570006FCAA /* AppDelegate.swift in Sources */,
+				5DA563C92655EF2B000AE7B7 /* CarInfoViewController.swift in Sources */,
+				5D5CC46A265340570006FCAA /* SceneDelegate.swift in Sources */,
+				5DA563C726549FEB000AE7B7 /* CarInformation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5CC4762653405A0006FCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5CC47F2653405A0006FCAA /* CoolCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5CC4812653405A0006FCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5CC48A2653405A0006FCAA /* CoolCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D5CC47C2653405A0006FCAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D5CC463265340560006FCAA /* CoolCar */;
+			targetProxy = 5D5CC47B2653405A0006FCAA /* PBXContainerItemProxy */;
+		};
+		5D5CC4872653405A0006FCAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D5CC463265340560006FCAA /* CoolCar */;
+			targetProxy = 5D5CC4862653405A0006FCAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D5CC46D265340570006FCAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5CC46E265340570006FCAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5CC4722653405A0006FCAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5CC4732653405A0006FCAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5CC48C2653405A0006FCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5CC48D2653405A0006FCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5CC48F2653405A0006FCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPV99XW6N4;
+				INFOPLIST_FILE = CoolCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mtier.dev.CoolCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D5CC4902653405A0006FCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPV99XW6N4;
+				INFOPLIST_FILE = CoolCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mtier.dev.CoolCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D5CC4922653405A0006FCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPV99XW6N4;
+				INFOPLIST_FILE = CoolCarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mtier.dev.CoolCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolCar.app/CoolCar";
+			};
+			name = Debug;
+		};
+		5D5CC4932653405A0006FCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPV99XW6N4;
+				INFOPLIST_FILE = CoolCarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mtier.dev.CoolCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolCar.app/CoolCar";
+			};
+			name = Release;
+		};
+		5D5CC4952653405A0006FCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPV99XW6N4;
+				INFOPLIST_FILE = CoolCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mtier.dev.CoolCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolCar;
+			};
+			name = Debug;
+		};
+		5D5CC4962653405A0006FCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPV99XW6N4;
+				INFOPLIST_FILE = CoolCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mtier.dev.CoolCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5CC45F265340560006FCAA /* Build configuration list for PBXProject "CoolCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5CC48C2653405A0006FCAA /* Debug */,
+				5D5CC48D2653405A0006FCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5CC48E2653405A0006FCAA /* Build configuration list for PBXNativeTarget "CoolCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5CC48F2653405A0006FCAA /* Debug */,
+				5D5CC4902653405A0006FCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5CC4912653405A0006FCAA /* Build configuration list for PBXNativeTarget "CoolCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5CC4922653405A0006FCAA /* Debug */,
+				5D5CC4932653405A0006FCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5CC4942653405A0006FCAA /* Build configuration list for PBXNativeTarget "CoolCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5CC4952653405A0006FCAA /* Debug */,
+				5D5CC4962653405A0006FCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5CC45C265340560006FCAA /* Project object */;
+}
